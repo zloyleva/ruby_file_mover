@@ -1,6 +1,6 @@
 require 'fileutils'
 
-reg = %r{[^\t].+[^(\sUAH)]} #Input data for slice
+reg = %r{[^\s]?[^\t].+[^(\sUAH)]} #Input data for slice
 pahtForInput = './for data/03-for0.txt' #Path to input file
 file_data = []
 rep_arr = []
